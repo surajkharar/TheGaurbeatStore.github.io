@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The GAURbeatSTORE</title>
+	<link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#000000">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+	<div class="main">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="bgg.jpg" alt="" id="bg">
+
+		<!-- navbar part -->
+		<div class="navbar">
+			<a href="#" id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;The GAURbeatSTORE</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content">
+				<li><a href="#">Home</a></li>
+				<li><a href="#top_tracks">Paid Beats</a></li>
+				<li><a href="#user_comments">Free Beats</a></li>
+				<li><a href="#popular_creator">Tutorials</a></li>
+				<li><a href="#">Call at 8727824992</a></li>
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="https://www.youtube.com/c/GaurBeats"><i class='bx bxs-movie-play'></i></a></li>
+				<li><a href="https://www.youtube.com/c/SochTheRapper"><i class='bxs-playlist'></i></a></li>
+				
+			</div>
+		</div>
+        
+       <!--  mid part -->
+		<div class="mid_part">
+            <img src="img.jpeg" alt="">
+
+			<div class="description">
+				<p id="A_name">Suraj Gaur</p>
+				<p>YouTube:Gaur Beats</p>
+				<br>
+				<div class="author_desc">
+				   <p>Suraj Gaur aka Gaur Beats is a Music Produ-cer based of Mohali,India.Gaur Beats has w-orked on 60+ projects in his career of 2 year-s with artists such as Soch the Rapper.</p>
+				</div>
+
+                 <div class="buttons">
+                   <a href="https://www.youtube.com/c/GaurBeats">
+                    <button><i class='bx bx-play'></i></button>
+                   </a>
+                 </div>
+
+			</div>
+		</div>
+
+        <!-- tracks part -->
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Paid Beats</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<img src="song_img/song_img1.jpg" alt="">
+				<div id="actions">
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="songs/No Replicas OY 95bpm.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>No Replicas OY(Prod.by Gaur Beats)</p>
+				   <p>Hip Hop</p>
+				   <p id="total_download">&nbsp;&nbsp;95 bpm</p>
+				   <p id="message">Most Popular</p>
+				</div>
+				<div id="actions_2">
+				  
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/We Back (28 feb 2021).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p>We Back(Prod.by Gaur Beats)</p>
+				   <p>Trap</p>
+				   <p id="total_download">&nbsp;&nbsp;85 bpm</p>
+				   <p id="message">Latest Release</p>
+				</div>
+
+				<div id="actions_2">
+				  
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/ILL DRILL (2 feb 2021).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>ILL Drill(Prod.by Gaur Beats)</p>
+				     <p>UK Drill</p>
+				     <p id="total_download"></i>&nbsp;&nbsp;140 bpm</p>
+				     <p id="message">Trending</p>
+				</div>
+
+				<div id="actions_2">
+
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img1.jpg" alt="">
+				<div id="actions">
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/Ready To Change -Final Mixed and Mastered(Club Bangerrrr 16 nov 2020).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Ready To Change(Prod.by Gaur Beats)</p>
+				     <p>Reggaeton/Dance</p>
+				     <p id="total_download">&nbsp;&nbsp;120 bpm</p>
+				</div>
+
+				<div id="actions_2">
+				  
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img/song_img2.jpg" alt="">
+				<div id="actions">
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/Sample sat ep 1 final.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Bell Sampled(Prod.by Gaur Beats)</p>
+				     <p>Trap/Sampled</p>
+				     <p id="total_download">&nbsp;&nbsp;110 bpm</p>
+					 
+				</div>
+
+				<div id="actions_2">
+				  
+				</div>
+			</div>
+
+		</div>
+
+        <!-- user comments part -->
+		<div class="user_comments" id="user_comments">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Some Free Beats for You</p>
+            
+           <div class="comments">
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-play' ></i>&nbsp;&nbsp;Faith(Prod.by Gaur Beats)</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/G0yf06ZZq-c" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-play' ></i>&nbsp;&nbsp;Power(Prod.by Gaur Beats)</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/p6Px14r-AWY" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-play' ></i>&nbsp;&nbsp;GI(Prod.by Gaur Beats)</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/-MaQn4T62HI" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	<div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-play' ></i>&nbsp;&nbsp;Patience(Prod.by Gaur beats)</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+					<iframe width="270" height="200" src="https://www.youtube.com/embed/jdntaribEEY" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           	 		<div id="social">
+           	 			
+           	 	</div>
+           	 </div>
+
+           </div>
+
+		</div>
+
+		<!-- popular creator part -->
+		<div class="popular_creator"id="popular_creator">
+           <p id="heading"><i class='bx bxs-movie-play' ></i>&nbsp;&nbsp;Music Production Tutorial Videos by Gaur Beats</p>
+            <div class="artists_list">
+				<a href="https://youtu.be/cBGT5iGOhWo">
+            	<div class="artist artist1">
+            		<div class="artist_desc">
+            			
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;700+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            		
+            	</div>
+				</a>
+				<a href="https://youtu.be/oSXcQ51TVHA">
+            	<div class="artist artist2">
+            		<div class="artist_desc">
+            			
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;35+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            		</div>
+            		
+            	</div>
+				</a>
+				<a href="https://youtu.be/a5hmUpqE4sE">
+					<div class="artist artist3">
+						<div class="artist_desc">
+							
+							<p><i class='bx bx-like' ></i>&nbsp;&nbsp;35+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						</div>
+						
+					</div>
+				</a>
+				<a href="https://youtu.be/MKX7tPYDuTo">
+					<div class="artist artist4">
+						<div class="artist_desc">
+							
+							<p><i class='bx bx-like' ></i>&nbsp;&nbsp;15+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						</div>
+						
+					</div>
+				</a>
+				<a href="https://youtu.be/vuIwwrd5FgM">
+					<div class="artist artist5">
+						<div class="artist_desc">
+							
+							<p><i class='bx bx-like' ></i>&nbsp;&nbsp;35+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						</div>
+						
+					</div>
+				</a>
+				<a href="https://youtu.be/AzaE2KHI_ag">
+					<div class="artist artist6">
+						<div class="artist_desc">
+							
+							<p><i class='bx bx-like' ></i>&nbsp;&nbsp;35+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						</div>
+						
+					</div>
+				</a>
+				<!-- <div class="artist">
+            		<img src="img/img1.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img2.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img3.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img4.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img1.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img/img2.jpg" alt="">
+            		<div class="artist_desc">
+            			<p>Arine Grande</p>
+            			<p><i class='bx bx-like' ></i>&nbsp;&nbsp;2000+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-share' ></i>500+</p>
+            		</div>
+            	</div> -->
+
+            </div>
+		</div>
+
+        <!-- footer part -->
+		<div class="footer">
+			<a id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;The GAURbeatSTORE</a>
+			<div class="social_handle">
+			
+			</div>
+		</div>
+
+	</div>
+
+  <!-- javascript file -->
+  <script src="main.js"></script>
+</body>
+</html>
+
